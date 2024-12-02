@@ -5,8 +5,8 @@ services:
     image: mongo:latest
     container_name: mongodb
     environment:
-      MONGO_INITDB_ROOT_USERNAME: dba
-      MONGO_INITDB_ROOT_PASSWORD: 12345
+      MONGO_INITDB_ROOT_USERNAME: johannadpc
+      MONGO_INITDB_ROOT_PASSWORD: johanna2004DP
     ports:
       - "27017:27017"
     networks:
